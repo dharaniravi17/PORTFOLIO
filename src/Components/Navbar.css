@@ -1,0 +1,34 @@
+*{
+    font-family: poppins,sans-serif
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color:rgb(40,46,61);
+    position: relative;
+}
+.navbar h2{
+    font-size: 1.9rem;
+}
+.navbar li {
+    list-style: none;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+.nav-list{
+    display: flex;
+    gap: 20px;
+}
+li Link{
+    color: aliceblue;
+    text-decoration: none;
+}
